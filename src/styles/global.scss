@@ -1,5 +1,16 @@
+:root {
+  --white: #ffffff;
+  --gray: #333d49;
+  --black: #17212e;
+  --blue: #0d47a1;
+  --orange: #f76900;
+  --yellow: #fed02f;
+  --bg: #f6f6f6;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  background: var(--bg);
 }
