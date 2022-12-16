@@ -3,3 +3,12 @@ main {
   flex-direction: column;
   gap: 1.5rem;
 }
+
+.highlight-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .info-card {
+    grid-column: 1 / 3;
+  }
+}
