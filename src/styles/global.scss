@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
   --gray: #333d49;
+  --light-gray: #d9d9d9;
   --black: #17212e;
   --blue: #0d47a1;
   --orange: #f76900;
@@ -9,8 +10,31 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   background: var(--bg);
+  max-width: 67%;
+}
+
+figure,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: var(--black);
+  }
+}
+
+@media (max-width: 660px) {
+  body {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
 }
