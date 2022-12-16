@@ -3,6 +3,7 @@ import Hero from "@components/Hero";
 import Counter from "@components/Counter";
 import InfoCard from "@components/InfoCard";
 import GridImage from "@components/GridImage";
+import Categories from "@components/Categories";
 import "@styles/Home.scss";
 
 const Home = () => {
@@ -61,6 +62,7 @@ const Home = () => {
             image="https://chedrauimx.vteximg.com.br/arquivos/CHEDRAUI-FRESCOS-Pepino-Verde-0066-E.jpg"
           />
         </section>
+        <Categories />
       </main>
     </>
   );

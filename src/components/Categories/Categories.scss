@@ -1,0 +1,25 @@
+.categories-container {
+  margin-block: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .categories-title {
+    text-align: left;
+    margin-block-start: 0rem;
+    margin-block-end: 1rem;
+    font-size: 1.5rem;
+    color: var(--blue);
+  }
+
+  .categories-info {
+    margin-block: auto;
+    grid-column: 1 / 2;
+  }
+
+  .categories-cards {
+    grid-column: 2 / 5;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+}
