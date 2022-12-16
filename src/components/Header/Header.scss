@@ -8,7 +8,8 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 1rem 0;
+  padding-block-start: 1rem;
+  padding-block-end: 0.5rem;
   width: 100%;
 
   h1 {
