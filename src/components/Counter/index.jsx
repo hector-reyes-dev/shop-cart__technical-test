@@ -20,7 +20,7 @@ const Counter = () => {
 
   return (
     <section className="counter-container">
-      <h2>Descubre nuevas ofertas en</h2>
+      <h2 className="counter-title">Descubre nuevas ofertas en</h2>
       <Countdown date={date} renderer={renderer} />
     </section>
   );

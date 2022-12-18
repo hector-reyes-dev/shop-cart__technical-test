@@ -3,7 +3,7 @@ import "./InfoCard.scss";
 
 const InfoCard = ({ title, description }) => {
   return (
-    <article>
+    <article className="card-info-container">
       <h3>{title}</h3>
       <p>{description}</p>
     </article>
