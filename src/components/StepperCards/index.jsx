@@ -33,7 +33,7 @@ const StepperCards = () => {
   return (
     <section>
       {cards.map(({ id, title, image, color }) => (
-        <StepCard id={id} title={title} image={image} color={color} />
+        <StepCard key={id} id={id} title={title} image={image} color={color} />
       ))}
     </section>
   );

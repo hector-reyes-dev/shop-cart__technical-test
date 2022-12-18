@@ -4,6 +4,8 @@ import Counter from "@components/Counter";
 import InfoCard from "@components/InfoCard";
 import GridImage from "@components/GridImage";
 import Categories from "@components/Categories";
+import StepperCards from "@components/StepperCards";
+import ProductsRow from "@components/ProductsRow";
 import "@styles/Home.scss";
 
 const Home = () => {
@@ -63,6 +65,16 @@ const Home = () => {
           />
         </section>
         <Categories />
+        <h2>4 pasos para mejorar una alimentación saludable</h2>
+        <StepperCards />
+        <ProductsRow
+          title="Descubre lo mejor en frescura"
+          category="electronics"
+        />
+        <ProductsRow
+          title="Descubre los mejores productos"
+          category="women's clothing"
+        />
       </main>
     </>
   );
