@@ -12,7 +12,6 @@ const ProductsRow = ({ title, category }) => {
     <>
       <h2 className="section-title">{title}</h2>
       <section>
-        {console.log(products)}
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

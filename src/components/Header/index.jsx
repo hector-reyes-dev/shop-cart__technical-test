@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Search from "@components/Search";
 import logo from "@logos/logo.svg";
 import menuIcon from "@icons/icon_menu.svg";
@@ -9,7 +10,9 @@ const Header = () => {
   return (
     <header>
       <div className="header-info-container">
-        <img className="header-logo" src={logo} alt="Logotipo Chedraui" />
+        <Link to="/">
+          <img className="header-logo" src={logo} alt="Logotipo Chedraui" />
+        </Link>
         <img className="header-menu-icon" src={menuIcon} alt="Menú" />
         <h1>Departamentos</h1>
       </div>
