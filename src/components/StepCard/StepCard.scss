@@ -59,3 +59,11 @@
     );
   }
 }
+
+@media (max-width: 425px) {
+  .card-container {
+    margin-block-end: 1rem;
+    margin-inline: auto;
+    width: 80%;
+  }
+}

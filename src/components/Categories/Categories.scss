@@ -23,3 +23,16 @@
     gap: 1rem;
   }
 }
+
+@media (max-width: 425px) {
+  .categories-container,
+  .categories-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .categories-cards {
+    margin-block-start: 1rem;
+  }
+}

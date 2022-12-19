@@ -15,3 +15,13 @@
     max-width: 45%;
   }
 }
+
+@media (max-width: 425px) {
+  .hero-container {
+    background-position: right;
+
+    img {
+      max-width: 90%;
+    }
+  }
+}

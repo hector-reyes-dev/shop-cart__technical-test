@@ -2,3 +2,9 @@ section {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 425px) {
+  section {
+    flex-direction: column;
+  }
+}
