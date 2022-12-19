@@ -46,6 +46,10 @@ button {
   }
 }
 
+.layout {
+  margin-block-end: 4rem;
+}
+
 @media (max-width: 660px) {
   body {
     max-width: 100%;
