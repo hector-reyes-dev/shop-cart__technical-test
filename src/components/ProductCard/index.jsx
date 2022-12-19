@@ -14,7 +14,9 @@ const ProductCard = ({ product }) => {
       </Link>
       <h4 className="product-title">{product.title}</h4>
       <h5 className="product-price">${product.price}</h5>
-      <button>Agregar</button>
+      <Link to={`product/${product.id}`}>
+        <button>Agregar</button>
+      </Link>
     </article>
   );
 };

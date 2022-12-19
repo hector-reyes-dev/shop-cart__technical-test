@@ -1,3 +1,14 @@
 .section-title {
+  margin-block-end: 1rem;
   text-align: start;
+}
+
+.products-list {
+  display: flex;
+}
+
+@media (max-width: 425px) {
+  .products-list {
+    flex-direction: column;
+  }
 }

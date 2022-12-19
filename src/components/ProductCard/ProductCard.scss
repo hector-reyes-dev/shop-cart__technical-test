@@ -35,3 +35,11 @@
     color: var(--blue);
   }
 }
+
+@media (max-width: 425px) {
+  .product-card {
+    margin-block-end: 1rem;
+    margin-inline: auto;
+    width: 80%;
+  }
+}

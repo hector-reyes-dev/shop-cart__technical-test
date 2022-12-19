@@ -11,7 +11,7 @@ const ProductsRow = ({ title, category }) => {
   return (
     <>
       <h2 className="section-title">{title}</h2>
-      <section>
+      <section className="products-list">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

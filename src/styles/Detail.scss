@@ -1,0 +1,122 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+
+  .product-image-container {
+    padding: 1rem;
+    max-width: 50%;
+    display: flex;
+    place-content: center;
+    background-color: var(--white);
+    border-radius: 0.8rem;
+
+    .product-image {
+      max-width: 60%;
+    }
+  }
+
+  .product-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 50%;
+
+    .product-category {
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+
+    .product-title {
+      margin-block: 0.5rem;
+      font-size: 2.5rem;
+      color: var(--black);
+    }
+
+    .product-rating-container {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .product-rate {
+        margin-block: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--orange);
+        font-size: 1.5rem;
+
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .product-description {
+      margin-block: 0.5rem;
+
+      span {
+        color: var(--orange);
+      }
+    }
+
+    .product-price {
+      margin-block: 0.5rem;
+      font-size: 2.2rem;
+      text-align: start;
+      color: var(--orange);
+      font-weight: 600;
+    }
+
+    .product-buttons-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      button {
+        width: 100%;
+        font-size: 1.35rem;
+        font-weight: 700;
+        border-radius: 0.8rem;
+        transition: all 0.3s;
+      }
+
+      .btn-secondary {
+        padding: 0.75rem;
+        background-color: var(--white);
+        color: var(--black);
+        border: 1px solid;
+        border-color: var(--orange);
+
+        &:hover {
+          color: var(--blue);
+          border-color: var(--blue);
+        }
+      }
+
+      .btn-primary {
+        padding: 1rem;
+        background-color: var(--orange);
+        color: var(--white);
+        border: none;
+
+        &:hover {
+          background-color: var(--blue);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .product-container {
+    flex-direction: column;
+
+    .product-image-container,
+    .product-info-container {
+      max-width: 100%;
+    }
+  }
+}
