@@ -3,7 +3,7 @@ import Countdown from "react-countdown";
 import "./Counter.scss";
 
 const Counter = () => {
-  const date = new Date(2022, 11, 27);
+  const date = new Date(2023, 0, 3);
   const CompletionComponent = () => (
     <span className="countdown">¡Las ofertas han comenzado!</span>
   );
